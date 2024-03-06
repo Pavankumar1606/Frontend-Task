@@ -1,0 +1,84 @@
+.card {
+  display: inline-block;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  margin: 30px 10px 0 30px; /* Added margin-left */
+  padding: 0 10px;
+  width: 250px;
+  height: 250px;
+  background-color: white;
+  overflow: auto;
+  background-image: linear-gradient(rgb(56, 56, 177), lightgrey);
+  border: 5px solid  black;
+  
+}
+h2 {
+  margin-left: 50px; 
+
+}
+a{
+  margin-top: 20px;
+  padding: 10px;
+  color: white;
+  background-color: rgb(85, 85, 228);
+}
+input{
+  padding: 20px 60px;
+  margin-left: 30px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 20px ;
+}
+.container{
+  text-align: center;
+}
+.box{
+  size: 20px;
+  color: black;
+}
+.container11 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+ top:20px;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container11 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0px;
+  left:300px;
+  height: 25px;
+  width: 25px;
+  background-color: #0f0404;
+}
+.button {
+  margin: 30px 70px;
+  background-color: #4404aa; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  
+}
+
+h4{
+  font-size:30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
